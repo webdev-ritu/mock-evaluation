@@ -1,0 +1,99 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d3d5d6;
+}
+h1{
+  text-align: center;
+  margin-top: 20px;
+  color: #0d0d0e;
+}
+button{
+  display:inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #111111;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.2s;
+}
+button:hover{
+  background-color: #f1f1f8;
+  color: #111111;
+
+}
+button:active{
+  background-color: #007bff;
+  color: white;
+}
+button:focus{
+  outline: none;
+}
+.app{
+  max-width:1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th, td{
+  border: 1px solid #111111;
+  padding: 10px;
+  text-align: center;
+}
+th{
+  background-color: #3c3d3d;
+  color: white;
+}
+tr:nth-child(even){
+  background-color: #f8f9fa;
+}
+tr:hover{
+  background-color: #575656;
+  color: white;
+}
+.add-employee-form, .filter-dropdwon{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background-color: white;
+}
+.add-employee-form input,
+.filter-dropdwon select,
+.filter-dropdwon select{
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+}
+.add-employee-form button{
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #111111;
+}
+.add-employee-form button:hover{
+  background-color: #f1f1f8;
+  color: #111111;
+}
+.filter-dropdwon select{
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+}
+.filter-dropdwon{
+  max-width: 200px;
+  margin: 0 auto;
+}
