@@ -59,7 +59,7 @@ tr:hover{
   background-color: #575656;
   color: white;
 }
-.add-employee-form, .filter-dropdwon{
+.Add-employee-form, .filter-dropdwon{
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -70,20 +70,20 @@ tr:hover{
   border-radius: 8px;
   background-color: white;
 }
-.add-employee-form input,
+.Add-employee-form input,
 .filter-dropdwon select,
 .filter-dropdwon select{
   padding: 10px;
   border: 1px solid #dee2e6;
   border-radius: 5px;
 }
-.add-employee-form button{
+.Add-employee-form button{
   width: 100%;
   padding: 10px;
   font-size: 16px;
   background-color: #111111;
 }
-.add-employee-form button:hover{
+.Add-employee-form button:hover{
   background-color: #f1f1f8;
   color: #111111;
 }
