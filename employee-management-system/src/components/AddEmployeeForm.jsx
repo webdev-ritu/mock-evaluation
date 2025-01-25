@@ -1,21 +1,21 @@
 import React, { useState } from 'react';
 //import "./styles/AddEmployeeForm.css";
  
-const AddEmployeeForm = ({addEmployee}) => {
+const AddEmployeeForm = ({AddEmployee}) => {
     const [name, setName] = useState("");
     const [designation, setDesignation] = useState("");
     const [department, setDepartment] = useState("");
     const  handleSubmit = (e) => {
         e.preventDefault();
         if(name && designation && department) {
-            addEmployee(name, designation, department);
+            AddEmployee(name, designation, department);
             setName("");
             setDesignation("");
             setDepartment("");
         }
     };
     return (
-        <from className="add-employee-form" onSubmit={handleSubmit}>
+        <from className="Add-employee-form" onSubmit={handleSubmit}>
             <input type="text" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} />
             <input type="text" placeholder="Designation" value={designation} onChange={(e) => setDesignation(e.target.value)} />
             <select value={department} onChange={(e) => setDepartment(e.target.value)}>
